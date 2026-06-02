@@ -69,3 +69,17 @@ A JSON summary layer was introduced to:
 * Enable faster dashboard responses
 
 This approach supports future migration to real-time analytics pipelines.
+
+## Engineering Tradeoffs
+
+The challenge dataset did not include a complete visitor-event dataset required for production-grade funnel analytics, dwell-time analytics, and queue analysis.
+
+Instead of fabricating visitor journeys, the solution focuses on:
+
+* Building reusable analytics services and APIs.
+* Designing an extensible event schema.
+* Implementing real sales analytics from transaction data.
+* Implementing real CCTV occupancy analytics from video footage.
+
+This approach prioritizes architectural correctness and future extensibility over synthetic behavioral data generation.
+
