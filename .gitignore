@@ -25,3 +25,5 @@ videos/
 
 # Jupyter
 .ipynb_checkpoints/
+#yolov8n.pt
+*.pt

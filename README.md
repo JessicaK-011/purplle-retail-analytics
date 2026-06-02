@@ -35,6 +35,9 @@ The solution exposes analytics through FastAPI endpoints and stores processed da
 * Store Metrics
 
 ---
+## System Architecture
+
+![Architecture](assets/Architecture.png)
 
 ## Technology Stack
 
@@ -154,3 +157,10 @@ GET /analytics/cctv-summary
 * Queue monitoring
 * Shelf engagement analytics
 * Cross-camera journey analytics
+## Swagger UI
+
+![Swagger](assets/swagger.png)
+
+## YOLO Detection
+
+![Detection](assets/test_detection.jpg)
