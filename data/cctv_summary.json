@@ -1,0 +1,27 @@
+{
+    "CAM 1.mp4": {
+        "max_people": 5,
+        "average_people": 3.14,
+        "samples_processed": 29
+    },
+    "CAM 2.mp4": {
+        "max_people": 10,
+        "average_people": 5.31,
+        "samples_processed": 26
+    },
+    "CAM 3.mp4": {
+        "max_people": 4,
+        "average_people": 1.03,
+        "samples_processed": 30
+    },
+    "CAM 4.mp4": {
+        "max_people": 0,
+        "average_people": 0.0,
+        "samples_processed": 30
+    },
+    "CAM 5.mp4": {
+        "max_people": 3,
+        "average_people": 1.25,
+        "samples_processed": 28
+    }
+}

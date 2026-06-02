@@ -16,3 +16,12 @@ __pycache__/
 
 # VS Code
 .vscode/
+
+# YOLO downloads
+runs/
+
+# Large videos
+videos/
+
+# Jupyter
+.ipynb_checkpoints/
