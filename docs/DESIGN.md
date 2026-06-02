@@ -95,7 +95,21 @@ For production deployment:
 ---
 
 ## Limitations
+## Data Availability Notes
 
-* Dataset contains limited CCTV samples.
-* Cross-camera visitor tracking is not implemented.
-* Zone analytics are inferred from provided store layout.
+The challenge resources included:
+
+* Store layout plans
+* CCTV footage samples from five cameras
+* Transaction-level sales data
+
+However, a complete operational event stream (visitor journeys, zone transitions, dwell-time events, queue events, etc.) was not provided.
+
+Therefore:
+
+* Sales analytics endpoints operate on real transaction data imported from the provided sales CSV.
+* CCTV analytics operate on real YOLOv8-based person detections extracted from the provided CCTV footage.
+* Operational analytics modules (funnel, heatmap, anomaly detection, and store metrics) are implemented as reusable analytics services and API endpoints designed to consume event-level retail telemetry when available.
+
+The architecture, database schema, API contracts, and service layer support ingestion of real operational events without requiring structural changes.
+
