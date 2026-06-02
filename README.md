@@ -19,6 +19,10 @@ The solution exposes analytics through FastAPI endpoints and stores processed da
 * Camera-wise Occupancy Analysis
 * CCTV Summary Generation
 
+## YOLO Detection
+
+![Detection](assets/test_detection.jpg)
+
 ### Retail Analytics
 
 * Sales Summary
@@ -147,6 +151,9 @@ GET /analytics/basket-metrics
 
 GET /analytics/cctv-summary
 
+## Swagger UI
+
+![Swagger](assets/swagger.png)
 ---
 
 ## Future Improvements
@@ -157,10 +164,6 @@ GET /analytics/cctv-summary
 * Queue monitoring
 * Shelf engagement analytics
 * Cross-camera journey analytics
-## Swagger UI
 
-![Swagger](assets/swagger.png)
 
-## YOLO Detection
-
-![Detection](assets/test_detection.jpg)
+---
